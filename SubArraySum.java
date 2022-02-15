@@ -1,4 +1,4 @@
-class Solution {
+class SubArraySum {
     public int subarraySum(int[] nums, int k) {
         int count = 0;
         HashMap<Integer, Integer> sumCount = new HashMap<>();
